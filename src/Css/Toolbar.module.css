@@ -1,0 +1,11 @@
+.Toolbar {
+    list-style: none;
+    background: deepskyblue;
+    width: 100%;
+}
+
+/* @media(max-width: 500px){
+    .Toolbar {
+        display: none;
+    }
+} */

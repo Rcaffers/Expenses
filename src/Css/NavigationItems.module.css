@@ -1,0 +1,12 @@
+.NavigationItems {
+    display: flex;
+    flex-flow: column;
+    width: 100%;
+}
+
+@media (min-width: 500px) {
+    .NavigationItems {
+        flex-flow: row;
+        justify-content: flex-end;
+    }
+}
