@@ -1,0 +1,25 @@
+.NavigationItem {
+    padding: 0 0;
+}
+
+.NavigationItem a {
+    text-decoration: none;
+    color: white;
+    padding: 20px 0;
+    display: block;
+    box-sizing: border-box;
+    text-align: center;
+    width:100%;
+}
+
+.NavigationItem a:hover {
+    background-color: #1565C0;
+}
+
+@media (min-width: 500px) { 
+    .NavigationItem a {
+        padding: 20px;
+        display: block;
+
+    }
+}
