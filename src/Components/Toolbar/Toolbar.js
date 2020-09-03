@@ -3,9 +3,11 @@ import NavigationItems from './Navigation/NavigationItems/NavigationItems';
 import classes from '../../Css/Toolbar.module.css'
 
 const Toolbar = (props) => (
-    <div className={classes.Toolbar}>
-        <NavigationItems />
-    </div>
+    <header className={classes.Toolbar}>
+        <div className={classes.DesktopOnly}>
+            <NavigationItems />
+        </div>
+    </header>
 );
 
 export default Toolbar;
