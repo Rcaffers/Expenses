@@ -1,11 +1,21 @@
 .Toolbar {
+    height: 62px;
     list-style: none;
-    background: deepskyblue;
+    background: linear-gradient(to bottom, #003399 0%, deepskyblue 100%);
     width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 90;
 }
 
-/* @media(max-width: 500px){
-    .Toolbar {
+@media(max-width: 499px){
+    .DesktopOnly {
         display: none;
     }
-} */
+    .DrawerToggle {
+        padding: 0 20px;
+        height: 62px;
+    }
+}
+
