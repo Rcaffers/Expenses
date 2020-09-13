@@ -1,0 +1,73 @@
+.ReceiptCardContainer {
+    width: 85%;
+    margin: 16px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    border-radius: 5px;
+    display: grid;
+}
+
+.ReceiptCardContainer2 {
+    display: grid;
+    background: linear-gradient(to bottom, #003399 0%, deepskyblue 100%);
+    border-bottom: 1px solid #f2f1f0;
+    padding: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    color: white;
+}
+
+.ReceiptCardContainer3 {
+    display: grid;
+    background: #f2f1f0;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.Shop {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: left;
+}
+
+.Date {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    text-align: right;
+}
+
+.ButtonContainer {
+    grid-column-start: 5;
+    grid-column-end: 6; 
+    text-align: right;
+}
+
+.Item {
+    text-align: left;
+    padding: 5px;
+}
+
+.Price {
+    text-align: right;
+    padding: 5px;
+}
+
+.Button {
+    background-color: #f54538;
+    border-radius: 100%;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.Button:hover {
+    color: white;
+}
+
+@media (min-width: 500px) {
+    .ReceiptCardContainer {
+        width: 30%;
+    }
+}

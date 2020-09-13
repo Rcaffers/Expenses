@@ -1,4 +1,9 @@
 .Content {
-    margin-top: 72px;
     width:100%;
+}
+
+@media (min-width: 500px) {
+    .Content {
+        margin-top: 62px;
+    }
 }
