@@ -1,0 +1,50 @@
+.inputcontainer {
+    text-align: center;
+    background-color:deepskyblue;
+    margin: 0px;
+    color: white;
+}
+
+.inputheading {
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+    padding: 5px;
+}
+.inputitem {
+    font-size: 20px;
+    padding: 10px;
+    padding: 5px;
+}
+
+.input[type=text]{
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    border: none;
+    margin-left: 10px;
+    padding-left: 10px;
+}
+
+.input[type=text]:focus {
+    border: solid 1px deepskyblue;
+    background-color: white;
+    outline: none;
+}
+
+.inputbutton {
+    margin: 10px;
+    background-color: #1979e6;
+    border-radius: 30px;
+    color: white;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.inputbutton:hover {
+    background-color: #1565C0;
+}

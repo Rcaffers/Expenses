@@ -42,3 +42,111 @@
     transform: rotate(45deg); }
   .DrawerToggle__open div::after {
     transform: rotate(-45deg); }
+
+.ReceiptCardContainer {
+  width: 85%;
+  margin: 16px auto;
+  border: 1px solid #eee;
+  box-shadow: 0 2px 3px #ccc;
+  border-radius: 5px;
+  display: grid; }
+
+.ReceiptCardContainer2 {
+  display: grid;
+  background: linear-gradient(to bottom, #003399 0%, deepskyblue 100%);
+  border-bottom: 1px solid #f2f1f0;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: white; }
+
+.ReceiptCardContainer3 {
+  display: grid;
+  background: #f2f1f0;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px; }
+
+.Shop {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: left; }
+
+.Date {
+  grid-column-start: 3;
+  grid-column-end: 5;
+  text-align: right; }
+
+.ButtonContainer {
+  grid-column-start: 5;
+  grid-column-end: 6;
+  text-align: right; }
+
+.Item {
+  text-align: left;
+  padding: 5px; }
+
+.Price {
+  text-align: right;
+  padding: 5px; }
+
+.Button {
+  background-color: #f54538;
+  border-radius: 100%;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px; }
+
+.Button:hover {
+  color: white; }
+
+@media (min-width: 500px) {
+  .ReceiptCardContainer {
+    width: 30%; } }
+
+.inputcontainer {
+  text-align: center;
+  background-color: deepskyblue;
+  margin: 0px;
+  color: white; }
+
+.inputheading {
+  font-weight: bold;
+  font-size: 30px;
+  padding: 10px;
+  padding: 5px; }
+
+.inputitem {
+  font-size: 20px;
+  padding: 10px;
+  padding: 5px; }
+
+.input[type=text] {
+  height: 20px;
+  background-color: white;
+  border-radius: 20px;
+  border: none;
+  margin-left: 10px;
+  padding-left: 10px; }
+
+.input[type=text]:focus {
+  border: solid 1px deepskyblue;
+  background-color: white;
+  outline: none; }
+
+.inputbutton {
+  margin: 10px;
+  background-color: #1979e6;
+  border-radius: 30px;
+  color: white;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  padding-left: 30px;
+  padding-right: 30px; }
+
+.inputbutton:hover {
+  background-color: #1565C0; }
