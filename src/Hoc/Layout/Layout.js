@@ -25,10 +25,11 @@ class Layout extends Component {
                         click={this.sideDrawerToggleHandler}
                         open={this.state.showSideDrawer}/>
                 </div>
-                <Toolbar />
+                <Toolbar hideAddRecieptHandler={this.props.hideAddRecieptHandler} />
                 <SideDrawer 
                     open={this.state.showSideDrawer}
-                    closed={this.sideDrawerToggleHandler} />
+                    closed={this.sideDrawerToggleHandler}
+                    hideAddRecieptHandler={this.props.hideAddRecieptHandler} />
                 <main className={classes.Content}>
                     {this.props.children}
                 </main>

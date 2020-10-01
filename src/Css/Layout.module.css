@@ -2,8 +2,8 @@
     width:100%;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
     .Content {
-        margin-top: 62px;
+        padding-top: 62px;
     }
 }

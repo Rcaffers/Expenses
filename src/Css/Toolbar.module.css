@@ -1,7 +1,7 @@
 .Toolbar {
     height: 62px;
     list-style: none;
-    background: linear-gradient(to bottom, #003399 0%, deepskyblue 100%);
+    background: deepskyblue;
     width: 100%;
     position: fixed;
     top: 0;
@@ -9,10 +9,15 @@
     z-index: 90;
 }
 
-@media(max-width: 499px){
+@media(max-width: 501px){
     .DesktopOnly {
         display: none;
     }
+
+    .Toolbar {
+        position: absolute;
+    }
+
     .DrawerToggle {
         padding: 0 20px;
         height: 62px;

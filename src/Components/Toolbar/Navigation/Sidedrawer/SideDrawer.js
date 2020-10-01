@@ -12,7 +12,9 @@ const SideDrawer = (props) => {
     return (
         <div className={attachedClasses.join(' ')}>
             <nav>
-                <NavigationItems />
+                <NavigationItems 
+                    hideAddRecieptHandler={props.hideAddRecieptHandler}
+                    closed={props.closed} />
             </nav>
         </div>
     );

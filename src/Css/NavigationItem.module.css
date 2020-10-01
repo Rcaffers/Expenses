@@ -13,13 +13,25 @@
 }
 
 .NavigationItem a:hover {
-    background-color: #1565C0;
-    border-radius: 10px;
+    color: black;
 }
 
-@media (min-width: 500px) { 
+@media (min-width: 501px) { 
+    .NavigationItem {
+        padding: 10px;
+    }
+
     .NavigationItem a {
-        padding: 20px;
+        padding: 10px 30px 10px 30px;
         display: block;
+        background-color: #1979e6;
+        border-radius: 30px;
+
+    }
+
+    .NavigationItem a:hover {
+        background-color: #1565C0;
+        border-radius: 30px;
+        color: white;
     }
 }

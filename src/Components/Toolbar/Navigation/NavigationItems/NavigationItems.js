@@ -4,7 +4,9 @@ import classes from '../../../../Css/NavigationItems.module.css';
 
 const NavigationItems = (props) => (
         <div className={classes.NavigationItems}>
-            <NavigationItem link="./">Add Receipt</NavigationItem>
+            <div onClick={props.hideAddRecieptHandler} >
+                <NavigationItem>Add Receipt</NavigationItem>
+            </div>
             <NavigationItem link="./">Filter</NavigationItem>
         </div>
 );

@@ -3,9 +3,10 @@
     flex-flow: column;
     width: 100%;
     margin-top: 72px;
+    cursor: pointer;
 }
 
-@media (min-width: 500px) {
+@media (min-width: 501px) {
     .NavigationItems {
         flex-flow: row;
         justify-content: flex-end;
